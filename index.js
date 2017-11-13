@@ -7,15 +7,13 @@ function printBadges(arr){
   return arr
 }
 
-function coinflip(){
-  return Math.random() >= 0.5;
-}
+
 
 function tailsNeverFails(){
   let counter = 0;
-  while (coinflip()){
+  while (Math.random() >= 0.5){
     counter += 1;
-    coinflip();
+    Math.random();
   }
   console.log(`You got ${counter} tails in a row!`)
 }
