@@ -1,7 +1,7 @@
 // Code your solutions in this file
 function printBadges(arr){
-  for (let i = 0; i < arr.length; i++) {
-    console.log('Welcome ${arr[i]}! You are employee #${i}.');
+  for (let idx = 0; idx < arr.length; idx++) {
+    console.log('Welcome ${ arr[idx]}! You are employee #${idx + 1 }.');
   }
   return arr
 }
