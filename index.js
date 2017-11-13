@@ -2,7 +2,7 @@
 function printBadges(arr){
   for(let i = 0; i < arr.length; i++){
     arr[i];
-    console.log('Welcome ${arr[i]}! You are employee #${i+1}.')
+    console.log('Welcome ${arr[i]}! You are employee #${i}.');
   }
   return arr
 }
