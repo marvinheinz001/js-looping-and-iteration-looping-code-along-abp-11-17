@@ -17,5 +17,5 @@ function tailsNeverFails(){
   while (coinflip()){
     counter += 1;
   }
-  return   console.log(`You got ${counter} tails in a row!`)
+  return `You got ${counter} tails in a row!`
 }
